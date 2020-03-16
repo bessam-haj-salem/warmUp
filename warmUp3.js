@@ -1,8 +1,25 @@
 // 1 - Write functions larger and smaller that each accept two strings as arguments, and return the larger and smaller strings, respectively
+function largerAndSmaller(str1,str2){
+   if(str1>str2){
+   	   return "the smaller string is " + ' ' + str2;
+   	   }
+   	   return "the larger string is " + ' ' + str1;
+   	   }
+
+
+
+
 
 // 2 - Write a function called counter that, when invoked, always returns a number that is one more than the previous invocation. For instance:
 // function counting(n) { 
-    TODO: your code here 
+    var result1 = 0;
+    var result2 = 0;
+    counting(n){
+    	result1 = n + 1;
+    	result2 = result1 + 1
+    return result2;
+
+    }
 // } 
 // counting(5); // => '1, 2, 3, 4, 5' 
 // counting(1); // => '1' 
