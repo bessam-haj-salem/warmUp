@@ -15,14 +15,14 @@ return false;
 }
 
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not
- function prime(n){
+ /*function prime(n){
  	if (n % 1 === 0 && n % n === 0 && n % "number" ===0 ){
  		return false;
  	 	}
  	return true;
  }
 
-
+/*
 // 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
 function sameValue(a, b){
 	if(a == b){
@@ -30,3 +30,4 @@ function sameValue(a, b){
 	}
 	return false;
 }
+*/
