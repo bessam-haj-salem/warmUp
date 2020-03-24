@@ -33,7 +33,7 @@ function gcd(a, b){
  	if(a === 0){
  		return b; // this is the stop condition in this case that the sum of 0 and b is b
  	}
- 	else return sum(a - 1, b); // this function will call itself untill a is equal to 0 and return to the stop condition
+ 	else return sum(a - 1, b + 1); // this function will call itself untill a is equal to 0 and return to the stop condition
  }
 // **************** git status ****************
 // **************** git add fileName.js ****************
