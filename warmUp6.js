@@ -14,6 +14,7 @@ function color(n){
 return false;
 }
 
+<<<<<<< HEAD
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not
  /*function prime(n){
  	if (n % 1 === 0 && n % n === 0 && n % "number" ===0 ){
@@ -21,9 +22,14 @@ return false;
  	 	}
  	return true;
  }
+=======
+
+// 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
 
 /*
 // 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
+<<<<<<< HEAD
 function sameValue(a, b){
 	if(a == b){
 		return true;
@@ -31,3 +37,6 @@ function sameValue(a, b){
 	return false;
 }
 */
+=======
+
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5

@@ -3,6 +3,7 @@
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
 
+<<<<<<< HEAD
 function greaterNum(a, b){
 	if(a > b){
 		return "the greater number of " + a + ' ' +'and ' + ' ' + b + ' ' + 'is ' + a ;
@@ -11,6 +12,8 @@ function greaterNum(a, b){
  }	 
 
 
+=======
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
 
 // 2) Write a function named isEven using  for loop that
 // -  iterate from x to y.
@@ -28,8 +31,11 @@ function greaterNum(a, b){
  }
 
 
+<<<<<<< HEAD
 
 // }
+=======
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
@@ -42,6 +48,7 @@ function greaterNum(a, b){
  	}
  	return result;
  }
+
 
 
 //4) Write a function named factorial that
